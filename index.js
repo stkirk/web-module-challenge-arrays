@@ -131,8 +131,13 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/) {
-  /*your code here*/
+function removeFlavorByName(array, flavor) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].includes(string)) {
+      array.splice(array[i - 1], 1);
+    }
+  }
+  return array;
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
