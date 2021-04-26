@@ -80,8 +80,9 @@ Use the addFlavor function below to do the following:
     For example: addFlavor(originalFlavors, "Rainbow Sherbert") should return the array ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla Burnt Almond"]
 */
 
-function addFlavor(/*your code here*/) {
-  /*your code here*/
+function addFlavor(array, string) {
+  array.unshift(string);
+  return array;
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
