@@ -133,8 +133,7 @@ Use the removeFlavorByName function below to do the following:
 
 function removeFlavorByName(array, flavor) {
   for (let i = 0; i < array.length; i++) {
-    if (array[i].includes(string)) {
-      array.splice(array[i - 1], 1);
+    if (array[i].includes(flavor)) {
     }
   }
   return array;
